@@ -1,0 +1,18 @@
+
+# Compiled executable
+main.exe
+
+# Temporary save file
+students.tmp
+
+# Local student records
+students.txt
+
+# Backup source file
+main_backup.cpp
+Main Backup.cpp
+
+# IDE and system files
+.vscode/
+.DS_Store
+Thumbs.db
