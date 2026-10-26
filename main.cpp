@@ -78,6 +78,10 @@ void addStudent() {
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         return;
     }
+    if (s.rollNo <= 0) {
+    cout << "Roll number must be a positive integer!\n";
+    return;
+}
 
     for (const auto &existing : students) {
         if (existing.rollNo == s.rollNo) {
