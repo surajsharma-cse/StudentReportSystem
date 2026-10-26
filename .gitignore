@@ -16,3 +16,8 @@ Main Backup.cpp
 .vscode/
 .DS_Store
 Thumbs.db
+# All compiled executables
+*.exe
+
+# CMake build directory
+build/
